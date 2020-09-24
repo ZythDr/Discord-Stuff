@@ -17,12 +17,12 @@
     transition-timing-function: ease-out;
     width: var(--ClosedWidth);
     transition: var(--ClosingAnim);
-    transition-delay: 50ms;
+    transition-delay: 75ms;
 }
 .sidebar-2K8pFh:hover {
     transition-timing-function: ease-out;
     width: var(--ExpandedWidth);
     transition: var(--ExpandingAnim);
-    transition-delay: 50ms;
+    transition-delay: 75ms;
 }
 
