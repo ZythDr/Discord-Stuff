@@ -10,6 +10,7 @@
     --ExpandingAnim: 500ms;     /*animation duration when cursor enters sidebar*/
     --ClosedWidth: 67px;        /*sidebar width minimized*/
     --ExpandedWidth: 200px;     /*sidebar width expanded*/
+    --AnimDelay: 75ms;          /*delay before the expand/collapse animation begins*/
 }
 
 
@@ -17,12 +18,11 @@
     transition-timing-function: ease-out;
     width: var(--ClosedWidth);
     transition: var(--ClosingAnim);
-    transition-delay: 75ms;
+    transition-delay: var(--AnimDelay);
 }
 .sidebar-2K8pFh:hover {
     transition-timing-function: ease-out;
     width: var(--ExpandedWidth);
     transition: var(--ExpandingAnim);
-    transition-delay: 75ms;
+    transition-delay: var(--AnimDelay);
 }
-
