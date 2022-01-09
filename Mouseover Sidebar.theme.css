@@ -20,7 +20,7 @@
     transition: var(--ClosingAnim);
     transition-delay: var(--AnimDelay);
 }
-.sidebar-2K8pFh:hover {
+.sidebar-1tnWFu:hover {
     transition-timing-function: ease-out;
     width: var(--ExpandedWidth);
     transition: var(--ExpandingAnim);
