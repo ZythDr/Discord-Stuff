@@ -14,13 +14,14 @@
 }
 
 
-.sidebar-1tnWFu {
+.sidebar_ded4b5 {
     transition-timing-function: ease-out;
     width: var(--ClosedWidth);
     transition: var(--ClosingAnim);
     transition-delay: var(--AnimDelay);
 }
-.sidebar-1tnWFu:hover {
+
+.sidebar_ded4b5:hover {
     transition-timing-function: ease-out;
     width: var(--ExpandedWidth);
     transition: var(--ExpandingAnim);
