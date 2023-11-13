@@ -27,3 +27,8 @@
     transition: var(--ExpandingAnim);
     transition-delay: var(--AnimDelay);
 }
+
+/** This recent addition will reduce the height of the Home/Nitro/Shop buttons in your DMs list, remove or comment the code to revert to default height. **/
+.avatarWithText__17e10 {
+    max-height: 26px;
+}
