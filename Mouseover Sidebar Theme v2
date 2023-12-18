@@ -1,0 +1,131 @@
+/* Mouseover Sidebar Theme by Zyth_Dr
+Huge thanks to:
+nvhhr @Vencord Discord Server
+Tnixc @Vencord Discord Server
+Salternator, the * selector @Vencord Discord Server
+Ôri
+Most of the credit goes to them as they helped and heavily contributed to this version my theme. */
+
+:root {
+    --ClosingAnim: 300ms; /*animation duration when cursor leaves sidebar*/
+    --ExpandingAnim: 300ms; /*animation duration when cursor enters sidebar*/
+    --ClosedWidth: 90px; /*sidebar width minimized*/
+    --ExpandedWidth: 240px; /*sidebar width expanded*/
+    --AnimDelay: 100ms; /*delay before the expand/collapse animation begins*/
+}
+
+@media (max-width: 1130px) {
+    /* Channel Sidebar */
+    .sidebar_ded4b5 {
+        position: absolute;
+        height: 100%;
+        width: var(--ClosedWidth);
+        z-index: 101;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+    .sidebar_ded4b5:hover {
+        width: var(--ExpandedWidth);
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+
+    /* Chat */
+    .chatContainer__23434, .container__11d72 {
+        position: relative;
+        margin-left: var(--ClosedWidth);
+    }
+    .container__93316:not(:only-child) .chatContainer__23434 {
+        margin-right: 60px;
+    }
+
+    /* Posts? */
+    .list__5ced9 > div:first-child {
+        margin-right: 120px;
+        margin-left: -15px;
+    }
+
+    div.card__691f2.headerRow__16d8e.columnsSpan__1a0d3 > div.mainCard__8a660.header_c01fde {
+        z-index: 100;
+    }
+
+    /* Friends, Nitro, Shop */
+    .peopleColumn__51df3, .homeWrapperNormal__6f127, .shop_b31ed2 {
+        position: relative;
+        margin-left: var(--ClosedWidth); 
+    }
+
+
+    /* Member List */
+    .container_b2ce9c {
+        position: absolute;
+        z-index: 102;
+        right: -180px;
+        height: 100%;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+    .container_b2ce9c:hover {
+        right: 0;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+
+
+    /* Threads Member List */
+    div.content__1a4fe > .hiddenMembers__48fe9 {
+        position: absolute;
+        right: -180px;
+        height: 100%;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+    div.content__1a4fe > .hiddenMembers__48fe9:hover {
+        right: 0;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+
+    /* Titlebar Offset (Top Header)*/
+    .upperContainer__993ba {
+        padding-right: 90px;
+    }
+    .theme-dark .themed_b152d4 {
+        position: relative;
+        margin-left: var(--ClosedWidth);
+    }
+    .children__32014 .toolbar__88c63 {
+        position: relative;
+        margin-left: var(--ClosedWidth);
+    }
+
+    /* Remove nicknames in titlebar */
+    .nicknames__7447d, .akaBadge__7df41, .divider_c09b64 {
+        display: none;
+    }
+}
+
+
+    /* Compact Search Bar */
+    .searchBar_e0c60b {
+        width: 80px;
+    }
+    .search__07df0 {
+        margin: 0px;
+    }
+
+    div > div.chatLayerWrapper__29dd6 {
+        right: -180px;
+        height: 100%;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+}
+    div > div.chatLayerWrapper__29dd6:hover {
+        right: 0px;
+        height: 100%;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+}
