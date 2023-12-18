@@ -10,7 +10,7 @@ __As v1 is inferior. It will not be receiving any further updates.__
 
 
 ## __Mouseover Sidebar v2__ - ![Preview](https://i.imgur.com/y962mRI.mp4) (WIP Description I'm getting distracted bai)
-This new and improved version of the my Mouseover Sidebar theme takes a different approach on expanding the sidebars.
+This new and improved version of my Mouseover Sidebar theme takes a different approach on expanding the sidebars.
 
 The chat will no longer be affected when the sidebars expand and collapse. 
 This means that text will no longer move around on expanding/collapsing the sidebars, which results in much better performance while it also looks better.
