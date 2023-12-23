@@ -6,7 +6,7 @@ Just a collection of my very amateur level Discord things as I try to learn more
 This mini-theme simply makes your dm/channels sidebar very narrow to save space and expands it upon mouseover.
 Sidebar width, animation speed and animation delay can be adjusted easily with a text editor or through the Discord settings if you have the [ThemeSettings](https://github.com/mwittrien/BetterDiscordAddons/tree/master/Plugins/ThemeSettings) plugin by [mwittrien](https://github.com/mwittrien).
 
-__As v1 is inferior. It will not be receiving any further updates.__
+__As v1 is inferior it will not be receiving any further updates.__
 
 
 ## __Mouseover Sidebar v2__ - ![Preview](https://i.imgur.com/y962mRI.mp4) (WIP Description I'm getting distracted bai)
