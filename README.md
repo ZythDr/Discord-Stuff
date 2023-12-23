@@ -16,5 +16,5 @@ The chat will no longer be affected when the sidebars expand and collapse.
 This means that text will no longer move around on expanding/collapsing the sidebars, which results in much better performance while it also looks better.
 Alongside the new approach to the animations, there are also a few new additions such as:
 + Theme only applies when window size is small (configurable size threshold by changing @media (max-width: 1130px))
-+ Top bar has been cleaned up and made more compact. [Preview](https://i.imgur.com/7oHnRf8.png) 
-+ "Useless" icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
++ Useless icons hidden from the top bar to make it more compact and less cluttered. [Preview](https://i.imgur.com/7oHnRf8.png) 
++ Unimportant icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
