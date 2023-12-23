@@ -9,7 +9,7 @@ Sidebar width, animation speed and animation delay can be adjusted easily with a
 __As v1 is inferior it will not be receiving any further updates.__
 
 
-## __Mouseover Sidebar v2__ - ![Preview](https://i.imgur.com/y962mRI.mp4) (WIP Description I'm getting distracted bai)
+## __Mouseover Sidebar v2__ - ![Preview](https://imgur.com/y962mRI) (WIP Description I'm getting distracted bai)
 This new and improved version of my Mouseover Sidebar theme takes a different approach on expanding the sidebars.
 
 The chat will no longer be affected when the sidebars expand and collapse. 
