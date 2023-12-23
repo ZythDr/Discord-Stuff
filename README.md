@@ -17,4 +17,4 @@ This means that text will no longer move around on expanding/collapsing the side
 Alongside the new approach to the animations, there are also a few new additions such as:
 + Theme only applies when window size is small (configurable size threshold by changing @media (max-width: 1130px))
 + Top bar has been cleaned up and made more compact. [Preview](https://i.imgur.com/7oHnRf8.png) 
-+ "Useless" icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted)
++ "Useless" icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
