@@ -40,16 +40,17 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin-right: 60px;
     }
 
+    
     /* Posts? */
     .list__5ced9 > div:first-child {
         margin-right: 120px;
         margin-left: -15px;
     }
-
     div.card__691f2.headerRow__16d8e.columnsSpan__1a0d3 > div.mainCard__8a660.header_c01fde {
         z-index: 100;
     }
 
+    
     /* Friends, Nitro, Shop */
     .peopleColumn__51df3, .homeWrapperNormal__6f127, .shop_b31ed2 {
         position: relative;
@@ -73,7 +74,6 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
 
-
     /* Threads Member List */
     div.content__1a4fe > .hiddenMembers__48fe9 {
         position: absolute;
@@ -88,7 +88,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition-delay: var(--AnimDelay);
     }
 
-
+    
     /* Titlebar Offset (Top Header)*/
     .upperContainer__993ba {
         padding-right: 90px;
@@ -102,13 +102,13 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin-left: var(--ClosedWidth);
     }
 
+    
     /* Remove nicknames in titlebar */
     .nicknames__7447d, .akaBadge__7df41, .divider_c09b64 {
         display: none;
     }
-}
 
-
+    
     /* Compact Search Bar */
     .searchBar_e0c60b {
         width: 80px;
@@ -117,15 +117,41 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin: 0px;
     }
 
+    
+    /* Threads "overlay" chat 
+    (remove section to make it not slide out of view when not hovered)*/
     div > div.chatLayerWrapper__29dd6 {
         right: -180px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
-}
+    }
     div > div.chatLayerWrapper__29dd6:hover {
         right: 0px;
         height: 100%;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
+    }
+
+    
+    /* Remove Nitro gift & Sticker buttons from chat input area */
+    .container__5eb17,              /* Nitro Gift Icon*/
+    .stickerButton__8af38 {         /* Stickers Icon */
+    display: none;
+    }
+
+
+    /* Hide unnecessary top bar icons */
+    div > div.toolbar__88c63 > a {               /* Help Button */
+    display: none;
+    }
+    div.toolbar__88c63 > div:nth-child(2) {      /* Notification settings */
+    display: none;
+    }
+}
+
+
+/* DMs list top icons spacing (Friends/Nitro/Shop) */
+.avatarWithText__17e10 {
+    max-height: 26px;
 }
