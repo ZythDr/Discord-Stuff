@@ -8,9 +8,9 @@ This improved version of my Mouseover Sidebar theme takes a different approach o
 The chat will no longer be affected when the sidebars expand and collapse. 
 This means that text will no longer move around on expanding/collapsing the sidebars, which results in much better performance while it also looks better.
 Alongside the new approach to the animations, there are also a few new additions such as:
-+ Theme only applies when window size is small. <sub><sup>(configurable size threshold by changing @media (max-width: 1130px))</sub></sup>
++ Theme only applies when window size is small. _(Currently set to activate when not wider than 1130px)_
 + Useless icons hidden from the top bar to make it more compact and less cluttered. [Preview](https://i.imgur.com/7oHnRf8.png) 
-+ Unimportant icons hidden from chat input box. <sub><sup>(Nitro Gift & Stickers button)</sub></sup> [Preview](https://i.imgur.com/DJRSllM.png)
++ Unimportant icons hidden from chat input box. _(Nitro Gift & Stickers button)_ [Preview](https://i.imgur.com/DJRSllM.png)
 + Threads & Voice Channel chat overlay frame partially slides out of view to make it less intrusive. [Preview](https://imgur.com/a/yyaO8w6)
 
 __Credit goes to:__
