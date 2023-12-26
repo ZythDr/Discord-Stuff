@@ -18,3 +18,11 @@ Alongside the new approach to the animations, there are also a few new additions
 + Theme only applies when window size is small (configurable size threshold by changing @media (max-width: 1130px))
 + Useless icons hidden from the top bar to make it more compact and less cluttered. [Preview](https://i.imgur.com/7oHnRf8.png) 
 + Unimportant icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
+
+Credit goes to:
+- nvhhr @Vencord Discord Server
+- Tnixc @Vencord Discord Server
+- Salternator, the * selector @Vencord Discord Server
+- Ôri
+
+Without their contributions v2 would not exist.
