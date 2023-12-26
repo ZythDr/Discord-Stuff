@@ -12,15 +12,13 @@ Alongside the new approach to the animations, there are also a few new additions
 + Useless icons hidden from the top bar to make it more compact and less cluttered. [Preview](https://i.imgur.com/7oHnRf8.png) 
 + Unimportant icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
 
-Credit goes to:
-- nvhhr @Vencord Discord Server
-- Tnixc @Vencord Discord Server
-- Salternator, the * selector @Vencord Discord Server
-- Ôri
+__Credit goes to:__
+- ___nvhhr___  @Vencord Discord Server
+- ___Tnixc___  @Vencord Discord Server
+- ___Salternator, the * selector___  @Vencord Discord Server
+- ___Ôri___
 
-Without their contributions v2 would not exist.
-
-
+__Without their contributions v2 would not exist.__
 
 
 ## __Mouseover Sidebar v1__ - [Preview](https://imgur.com/a/ecWkt7O) (Discontinued)
