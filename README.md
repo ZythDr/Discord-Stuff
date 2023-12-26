@@ -3,7 +3,7 @@
 Just a collection of my very amateur level Discord things as I try to learn more.
 
 ## __Mouseover Sidebar v2__ - [Preview](https://imgur.com/y962mRI)
-This new and improved version of my Mouseover Sidebar theme takes a different approach on how the sidebars expand.
+This improved version of my Mouseover Sidebar theme takes a different approach on how the sidebars expand.
 
 The chat will no longer be affected when the sidebars expand and collapse. 
 This means that text will no longer move around on expanding/collapsing the sidebars, which results in much better performance while it also looks better.
