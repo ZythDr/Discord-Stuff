@@ -13,9 +13,9 @@ Alongside the new approach to the animations, there are also a few new additions
 + Unimportant icons hidden from chat input box. (Nitro Gift & Stickers, can be reverted) [Preview](https://i.imgur.com/DJRSllM.png)
 
 __Credit goes to:__
-- ___nvhhr___  @Vencord Discord Server
-- ___Tnixc___  @Vencord Discord Server
-- ___Salternator, the * selector___  @Vencord Discord Server
+- ___nvhhr___  <sub><sup>@Vencord Discord Server</sup></sub>
+- ___Tnixc___  <sub><sup>@Vencord Discord Server</sup></sub>
+- ___Salternator, the * selector___  <sub><sup>@Vencord Discord Server</sup></sub>
 - ___Ôri___
 
 __Without their contributions v2 would not exist.__
