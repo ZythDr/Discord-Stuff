@@ -7,11 +7,12 @@ Salternator, the * selector @Vencord Discord Server
 Most of the credit goes to them as they helped and heavily contributed to this version my theme. */
 
 :root {
-    --ClosingAnim: 300ms; /*animation duration when cursor leaves sidebar*/
-    --ExpandingAnim: 300ms; /*animation duration when cursor enters sidebar*/
-    --ClosedWidth: 90px; /*sidebar width minimized*/
-    --ExpandedWidth: 240px; /*sidebar width expanded*/
-    --AnimDelay: 100ms; /*delay before the expand/collapse animation begins*/
+    --ClosingAnim: 300ms; /* animation duration when cursor leaves sidebar */
+    --ExpandingAnim: 300ms; /* animation duration when cursor enters sidebar */
+    --ClosedWidth: 90px; /* sidebar width minimized */
+    --ExpandedWidth: 240px; /* sidebar width expanded */
+    --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
+    --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
 
 @media (max-width: 1130px) {
@@ -32,30 +33,47 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Chat */
-    .chatContainer__23434, .container__11d72 {
+    .chatContent__5dca8 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .container__93316:not(:only-child) .chatContainer__23434 {
+    .chatContent__5dca8:not(:only-child) {
         margin-right: 60px;
     }
 
-    
-    /* Posts? */
-    .list__5ced9 > div:first-child {
-        margin-right: 120px;
-        margin-left: -15px;
+
+    /* Call Screen */
+    .wrapper_bd2abe {
+        margin-left: var(--ClosedWidth);
     }
+
+
+    /* Posts? */
+    .container_b181b6 {
+        margin-left: var(--ClosedWidth);
+    }
+    .container_b181b6:not(:last-child) {
+        margin-left: var(--ClosedWidth);
+        margin-right: 60px;
+    }
+
+
+    /* Posts "thread" chat overlay padding */
+    div.chatLayerWrapper__29dd6 > div:nth-child(2) > div > section  {
+        margin-left: 0px;
+    }
+
+    /* Posts z-index to prevent post threads chat overlapping issue */
     div.card__691f2.headerRow__16d8e.columnsSpan__1a0d3 > div.mainCard__8a660.header_c01fde {
         z-index: 100;
     }
 
-    
+
     /* Friends, Nitro, Shop */
-    .peopleColumn__51df3, .homeWrapperNormal__6f127, .shop_b31ed2 {
+    .peopleColumn__51df3, .shop_b31ed2, .applicationStore_fc7d76 {
         position: relative;
         margin-left: var(--ClosedWidth); 
-    }
+    } 
 
 
     /* Member List */
@@ -88,7 +106,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition-delay: var(--AnimDelay);
     }
 
-    
+
     /* Titlebar Offset (Top Header)*/
     .upperContainer__993ba {
         padding-right: 90px;
@@ -102,13 +120,13 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin-left: var(--ClosedWidth);
     }
 
-    
+
     /* Remove nicknames in titlebar */
-    .nicknames__7447d, .akaBadge__7df41, .divider_c09b64 {
+    .nicknames__7447d , .akaBadge__7df41, .divider_c09b64 {
         display: none;
     }
 
-    
+
     /* Compact Search Bar */
     .searchBar_e0c60b {
         width: 80px;
@@ -117,11 +135,19 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin: 0px;
     }
 
+
+    /* Hide unnecessary top bar icons */
+    div > div.toolbar__88c63 > a {               /* Help Button */
+    display: none;
+    }
+    div.toolbar__88c63 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
+    display: none;
+    }
     
-    /* Threads "overlay" chat 
-    (remove section to make it not slide out of view when not hovered)*/
+
+    /* Threads "overlay" chat  (mouseover slide-in threads chat)*/
     div > div.chatLayerWrapper__29dd6 {
-        right: -180px;
+        right: -190px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
@@ -133,25 +159,27 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition-delay: var(--AnimDelay);
     }
 
-    
+    /* Threads Overlay chat left padding */
+    div.chatLayerWrapper__29dd6 > div:nth-child(2) > div.chat_f8f70f > section {
+        margin-left: 2px;
+    }
+
+    /* Threads Overlay title padding */
+    div.chatLayerWrapper__29dd6 > div:nth-child(2) > section > div {
+        margin-left: -80px;
+    }
+
+
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    .container__5eb17,              /* Nitro Gift Icon*/
-    .stickerButton__8af38 {         /* Stickers Icon */
+    div.buttons__7ecff > button > div,                            /* Nitro Icon*/
+    div.buttons__7ecff > div:nth-child(3) > button > div {        /* Stickers Icon */
     display: none;
     }
 
-
-    /* Hide unnecessary top bar icons */
-    div > div.toolbar__88c63 > a {               /* Help Button */
-    display: none;
-    }
-    div.toolbar__88c63 > div:nth-child(2) {      /* Notification settings */
-    display: none;
-    }
 }
-
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
 .avatarWithText__17e10 {
     max-height: 26px;
+
 }
