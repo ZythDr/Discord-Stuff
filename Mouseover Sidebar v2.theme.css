@@ -171,10 +171,12 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    div.buttons__7ecff > button > div,                            /* Nitro Icon*/
-    div.buttons__7ecff > div:nth-child(3) > button > div {        /* Stickers Icon */
+    div.buttons_ce5b56 > button > div,                            /* Nitro Icon*/
+    div.buttons_ce5b56 > div:nth-child(2) > button > div,         /* GIF Icon */
+    div.buttons_ce5b56 > div:nth-child(3) > button > div {        /* Stickers Icon */  
     display: none;
     }
+
 
 }
 
