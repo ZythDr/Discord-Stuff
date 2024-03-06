@@ -178,6 +178,21 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
 
+    /* Search sidebar panel thingy slideout + resize */
+    div.chat__52833 > div.content__1a4fe > section {
+        width: 70%;
+        position: absolute;
+        z-index: 102;
+        right: -300px;
+        height: 100%;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+    div.chat__52833 > div.content__1a4fe > section:hover {
+        right: 0;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
