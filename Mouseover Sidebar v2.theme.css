@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .sidebar_ded4b5 {
+    .sidebar_e031be {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth);
@@ -25,7 +25,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .sidebar_ded4b5:hover {
+    .sidebar_e031be:hover {
         width: var(--ExpandedWidth);
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -33,51 +33,51 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Chat */
-    .chatContent__5dca8 {
+    .chatContent_f087cb {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .chatContent__5dca8:not(:only-child) {
+    .chatContent_f087cb:not(:only-child) {
         margin-right: 60px;
     }
 
 
     /* Call Screen */
-    .wrapper_bd2abe {
+    .wrapper__6bf2d {
         margin-left: var(--ClosedWidth);
     }
 
 
     /* Posts? */
-    .container_b181b6 {
+    .container_b92032 {
         margin-left: var(--ClosedWidth);
     }
-    .container_b181b6:not(:last-child) {
+    .container_b92032:not(:last-child) {
         margin-left: var(--ClosedWidth);
         margin-right: 60px;
     }
 
 
     /* Posts "thread" chat overlay padding */
-    div.chatLayerWrapper__29dd6 > div:nth-child(2) > div > section  {
+    div.chatLayerWrapper__1b344 > div:nth-child(2) > div > section  {
         margin-left: 0px;
     }
 
     /* Posts z-index to prevent post threads chat overlapping issue */
-    div.card__691f2.headerRow__16d8e.columnsSpan__1a0d3 > div.mainCard__8a660.header_c01fde {
+    div.card__691f2.headerRow__86f2e.columnsSpan_ffeb03 > div.mainCard__0ec2c.header_b2c494 {
         z-index: 100;
     }
 
 
     /* Friends, Nitro, Shop */
-    .peopleColumn__51df3, .shop_b31ed2, .applicationStore_fc7d76 {
+    .peopleColumn__0c784, .shop_b31ed2, .applicationStore__444b9 {
         position: relative;
         margin-left: var(--ClosedWidth); 
     } 
 
 
     /* Member List */
-    .container_b2ce9c {
+    .container_f79ab4 {
         position: absolute;
         z-index: 102;
         right: -180px;
@@ -85,7 +85,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .container_b2ce9c:hover {
+    .container_f79ab4:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -93,14 +93,14 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Threads Member List */
-    div.content__1a4fe > .hiddenMembers__48fe9 {
+    div.content__01e65 > .hiddenMembers__0524b {
         position: absolute;
         right: -180px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div.content__1a4fe > .hiddenMembers__48fe9:hover {
+    div.content__01e65 > .hiddenMembers__0524b:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -108,27 +108,27 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Titlebar Offset (Top Header)*/
-    .upperContainer__993ba {
+    .upperContainer__57565 {
         padding-right: 90px;
     }
     .theme-dark .themed_b152d4 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .children__32014 .toolbar__88c63 {
+    .children_cde9af .toolbar__62fb5 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
 
 
     /* Remove nicknames in titlebar */
-    .nicknames__7447d , .akaBadge__7df41, .divider_c09b64 {
+    .nicknames__12efb , .akaBadge__27cd4, .divider_bdb894 {
         display: none;
     }
 
 
     /* Compact Search Bar */
-    .searchBar_e0c60b {
+    .searchBar__5a20a {
         width: 80px;
     }
     .search__07df0 {
@@ -137,22 +137,22 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Hide unnecessary top bar icons */
-    div > div.toolbar__88c63 > a {               /* Help Button */
+    div > div.toolbar__62fb5 > a {               /* Help Button */
     display: none;
     }
-    div.toolbar__88c63 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
+    div.toolbar__62fb5 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
     display: none;
     }
     
 
     /* Threads "overlay" chat  (mouseover slide-in threads chat)*/
-    div > div.chatLayerWrapper__29dd6 {
+    div > div.chatLayerWrapper__1b344 {
         right: -190px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div > div.chatLayerWrapper__29dd6:hover {
+    div > div.chatLayerWrapper__1b344:hover {
         right: 0px;
         height: 100%;
         transition: var(--ExpandingAnim);
@@ -160,26 +160,26 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     /* Threads Overlay chat left padding */
-    div.chatLayerWrapper__29dd6 > div:nth-child(2) > div.chat_f8f70f > section {
+    div.chatLayerWrapper__1b344 > div:nth-child(2) > div.chat_f8f70f > section {
         margin-left: 2px;
     }
 
     /* Threads Overlay title padding */
-    div.chatLayerWrapper__29dd6 > div:nth-child(2) > section > div {
+    div.chatLayerWrapper__1b344 > div:nth-child(2) > section > div {
         margin-left: -80px;
     }
 
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    div.buttons_ce5b56 > button > div,                            /* Nitro Icon*/
-    div.buttons_ce5b56 > div:nth-child(2) > button > div,         /* GIF Icon */
-    div.buttons_ce5b56 > div:nth-child(3) > button > div {        /* Stickers Icon */  
+    div.buttons__7ecff > button > div,                            /* Nitro Icon*/
+    div.buttons__7ecff > div:nth-child(2) > button > div,         /* GIF Icon */
+    div.buttons__7ecff > div:nth-child(3) > button > div {        /* Stickers Icon */  
     display: none;
     }
 
 
     /* Search sidebar panel thingy slideout + resize */
-    div.chat__52833 > div.content__1a4fe > section {
+    div.chat__52833 > div.content__01e65 > section {
         width: 70%;
         position: absolute;
         z-index: 102;
@@ -188,7 +188,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div.chat__52833 > div.content__1a4fe > section:hover {
+    div.chat__52833 > div.content__01e65 > section:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -196,7 +196,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
-.avatarWithText__17e10 {
+.avatarWithText__3fb83 {
     max-height: 26px;
 
 }
