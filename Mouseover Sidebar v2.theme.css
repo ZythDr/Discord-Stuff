@@ -202,10 +202,10 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
     
     /* Add offset to top bar in Friends page etc */
-    .upperContainer_fc4f04 {
+    .children_fc4f04 {
         margin-left: var(--ClosedWidth);
     }
-
+    
     
     /* Adjust margins on top bar in friends page etc */
     .topPill_a0 .item_a0{
