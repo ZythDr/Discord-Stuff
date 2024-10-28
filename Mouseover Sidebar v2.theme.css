@@ -108,21 +108,21 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Titlebar Offset (Top Header)*/
-    .upperContainer_e44302 {
+    .upperContainer_fc4f {
         padding-right: 90px;
     }
-    .theme-dark .themed_e44302 {
+    .theme-dark .themed_fc4f04 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .children_e44302 .toolbar_e44302 {
+    .children_fc4f04 .toolbar_fc4f04 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
 
 
     /* Remove nicknames in titlebar */
-    .nicknames__12efb , .akaBadge__27cd4, .divider_e44302 {
+    .nicknames__12efb , .akaBadge__27cd4, .divider_fc4f04 {
         display: none;
     }
 
@@ -137,10 +137,10 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Hide unnecessary top bar icons */
-    div > div.toolbar_e44302 > a {               /* Help Button */
+    div > div.toolbar_fc4f04 > a {               /* Help Button */
     display: none;
     }
-    div.toolbar_e44302 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
+    div.toolbar_fc4f04 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
     display: none;
     }
     
@@ -171,9 +171,9 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    div.buttons_d0696b > button > div,                            /* Nitro Icon*/
-    div.buttons_d0696b > div:nth-child(2) > button > div,         /* GIF Icon */
-    div.buttons_d0696b > div:nth-child(3) > button > div {        /* Stickers Icon */  
+    div.buttons_bdf0de > button > div,                            /* Nitro Icon*/
+    div.buttons_bdf0de > div:nth-child(2) > button > div,         /* GIF Icon */
+    div.buttons_bdf0de > div:nth-child(3) > button > div {        /* Stickers Icon */  
     display: none;
     }
 
@@ -218,4 +218,3 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     max-height: 26px;
 
 }
-
