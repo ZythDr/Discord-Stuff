@@ -169,6 +169,10 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin-left: -80px;
     }
 
+    /* Channel Browser padding */
+    .pageBody_c2efea {
+    padding-left: var(--ClosedWidth);
+    }
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
     div.buttons_bdf0de > button > div,                            /* Nitro Icon*/
