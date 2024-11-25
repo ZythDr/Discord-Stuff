@@ -198,6 +198,10 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition-delay: var(--AnimDelay);
     }
 
+    /* Message request page padding */
+    .list_f3abf4 {
+    margin-left: var(--ClosedWidth);
+    }
     
     /* Change top bar button min width */
     .tabBar_c2739c .item_c2739c {
