@@ -9,15 +9,15 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 :root {
     --ClosingAnim: 300ms; /* animation duration when cursor leaves sidebar */
     --ExpandingAnim: 300ms; /* animation duration when cursor enters sidebar */
-    --ClosedWidth: 90px!important; /* sidebar width minimized */
-    --ExpandedWidth: 240px!important; /* sidebar width expanded */
+    --ClosedWidth: 90px; /* sidebar width minimized */
+    --ExpandedWidth: 240px; /* sidebar width expanded */
     --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
     --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    /*.sidebar_a4d4d9 {
+    .sidebar_a4d4d9 {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
@@ -29,22 +29,8 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         width: var(--ExpandedWidth)!important;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
-    }*/
-    
-    #div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
-        position: absolute;
-        height: 100%;
-        width: var(--ClosedWidth)!important;
-        z-index: 101;
-        transition: var(--ClosingAnim);
-        transition-delay: var(--AnimDelay);
     }
-    
-    #div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
-        width: var(--ExpandedWidth)!important;
-        transition: var(--ExpandingAnim);
-        transition-delay: var(--AnimDelay);
-    }
+
 
     /* Chat */
     .chatContent_a7d72e {
