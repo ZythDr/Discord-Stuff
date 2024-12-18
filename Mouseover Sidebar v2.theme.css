@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .sidebar_a4d4d9 {
+    /*.sidebar_a4d4d9 {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
@@ -29,8 +29,22 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         width: var(--ExpandedWidth)!important;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
+    }*/
+    
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
+        position: absolute;
+        height: 100%;
+        width: var(--ClosedWidth)!important;
+        z-index: 101;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
     }
-
+    
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
+        width: var(--ExpandedWidth)!important;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
 
     /* Chat */
     .chatContent_a7d72e {
@@ -227,10 +241,3 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 }
 
-div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
-    width: var(--ClosedWidth)!important;
-}
-
-div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
-    width: var(--ExpandedWidth)!important;
-}
