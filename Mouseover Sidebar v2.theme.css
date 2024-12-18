@@ -20,7 +20,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .sidebar_a4d4d9 {
         position: absolute;
         height: 100%;
-        width: var(--ClosedWidth);
+        width: var(--ClosedWidth)!important;
         z-index: 101;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
