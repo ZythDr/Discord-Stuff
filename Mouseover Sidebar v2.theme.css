@@ -9,8 +9,8 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 :root {
     --ClosingAnim: 300ms; /* animation duration when cursor leaves sidebar */
     --ExpandingAnim: 300ms; /* animation duration when cursor enters sidebar */
-    --ClosedWidth: 90px; /* sidebar width minimized */
-    --ExpandedWidth: 240px; /* sidebar width expanded */
+    --ClosedWidth: 90px!important; /* sidebar width minimized */
+    --ExpandedWidth: 240px!important; /* sidebar width expanded */
     --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
     --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
