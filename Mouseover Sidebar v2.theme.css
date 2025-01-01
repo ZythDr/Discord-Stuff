@@ -32,7 +32,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     .sidebar_a4d4d9:not(.hidden_a4d4d9) {
-    width: 240px;
+    width: 240px!important;
     }
 
 
