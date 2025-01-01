@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .sidebar_a4d4d9 {
+    .sidebar_a4d4d9:not(.hidden_a4d4d9) {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
