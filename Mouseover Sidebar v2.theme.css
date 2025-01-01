@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .sidebar_a4d4d9 {
+    .layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
@@ -25,7 +25,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .sidebar_a4d4d9:hover {
+    .layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
         width: var(--ExpandedWidth)!important;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -34,6 +34,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .sidebar_a4d4d9:not(.hidden_a4d4d9) {
     width: 240px!important;
     }
+
 
 
     /* Chat */
