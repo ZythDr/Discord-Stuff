@@ -242,7 +242,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
     /* Discover Page content fix */
     div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > section {
-    padding-left: var(--ClosedWidth)!important;
+    margin-left: var(--ClosedWidth)!important;
     }
 }
 
