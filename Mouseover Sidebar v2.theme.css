@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .sidebar_a4d4d9 {
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
@@ -25,7 +25,8 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .sidebar_a4d4d9:hover {
+    
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
         width: var(--ExpandedWidth)!important;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -40,6 +41,16 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .chatContent_a7d72e:not(:only-child) {
         margin-right: 60px;
     }
+
+    /* Chat width 2025 fix */
+    .content_a7d72e:has(.container_cbd271) {
+        padding-right: 58px;
+    }
+    
+    div.chat_a7d72e > div.content_a7d72e > main {
+        margin-right: 0px;
+    }
+    
     
 
     /* Call Screen */
@@ -167,6 +178,11 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     /* Threads Overlay title padding */
     div.chatLayerWrapper_d1c246 > div:nth-child(2) > section > div {
         margin-left: -80px;
+    }
+
+    /* Threads right margin 2025 fix */
+    div.chatLayerWrapper_d1c246 > div:nth-child(2) > div.chat_fe669e > section {
+        margin-right: 0px;
     }
 
     /* Channel Browser padding */
