@@ -239,6 +239,11 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .topPill_a0 .item_a0{
         margin: 0 1px;
     }
+
+    /* Discover Page content fix */
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > section {
+    padding-left: var(--ClosedWidth);
+    }
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
