@@ -249,11 +249,15 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > section {
     margin-left: var(--ClosedWidth)!important;
     }
+
+    /* Fullsize Threads Chat 2025 fix */
+    .content_a7d72e:has(.hiddenMembers_cbd271)  {
+        padding-right: 58px;
+    }
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
 .avatarWithText_c91bad {
     max-height: 26px;
-
 }
 
