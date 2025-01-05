@@ -55,6 +55,11 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin-right: 0px;
     }
     
+    /* Fullsize Threads Chat 2025 fix */
+    .content_a7d72e:has(.hiddenMembers_cbd271)  {
+        padding-right: 58px;
+    }
+    
     
 
     /* Call Screen */
