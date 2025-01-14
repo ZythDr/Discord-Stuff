@@ -254,6 +254,14 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .content_a7d72e:has(.hiddenMembers_cbd271)  {
         padding-right: 58px;
     }
+    div.chat_a7d72e.background_e85cee > section > div > div.children_fc4f04.headerBarInner_e85cee {
+    margin-left: 0px;
+    }
+    
+    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e.background_e85cee {
+        margin-left: var(--ClosedWidth);
+    }
+
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
