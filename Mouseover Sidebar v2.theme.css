@@ -17,7 +17,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 @media (max-width: 1130px) {
     /* Channel Sidebar */
-    .layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9 {
+    .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade {
         position: absolute;
         height: 100%;
         width: var(--ClosedWidth)!important;
@@ -25,79 +25,79 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.sidebar_a4d4d9:hover {
+    .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade:hover {
         width: var(--ExpandedWidth)!important;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
     }
 
-    .sidebar_a4d4d9:not(.hidden_a4d4d9) {
+    .sidebar_c48ade:not(.hidden_c48ade) {
     width: 240px!important;
     }
 
 
 
     /* Chat */
-    .chatContent_a7d72e {
+    .chatContent_f75fb0 {
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .chatContent_a7d72e:not(:only-child) {
+    .chatContent_f75fb0:not(:only-child) {
         margin-right: 60px;
     }
 
     /* Chat width 2025 fix */
-    .content_a7d72e:has(.container_cbd271) {
+    .content_f75fb0:has(.container_c8ffbb) {
         padding-right: 58px;
     }
     
-    div.chat_a7d72e > div.content_a7d72e > main {
+    div.chat_f75fb0 > div.content_f75fb0 > main {
         margin-right: 0px;
     }
     
     /* Fullsize Threads Chat 2025 fix */
-    .content_a7d72e:has(.hiddenMembers_cbd271)  {
+    .content_f75fb0:has(.hiddenMembers_c8ffbb)  {
         padding-right: 58px;
     }
     
     
 
     /* Call Screen */
-    .wrapper_d880dc {
+    .wrapper_cb9592 {
         margin-left: var(--ClosedWidth);
     }
 
 
     /* Posts? */
-    .container_a6d69a {
+    .container_f369db {
         margin-left: var(--ClosedWidth);
     }
-    .container_a6d69a:not(:last-child) {
+    .container_f369db:not(:last-child) {
         margin-left: var(--ClosedWidth);
         margin-right: 60px;
     }
 
 
     /* Posts "thread" chat overlay padding */
-    div.chatLayerWrapper_d1c246 > div:nth-child(2) > div > section  {
+    div.chatLayerWrapper__01ae2 > div:nth-child(2) > div > section  {
         margin-left: 0px;
     }
 
     /* Posts z-index to prevent post threads chat overlapping issue */
-    div.card_a6d69a.headerRow_a6d69a.columnsSpan_a6d69a > div.mainCard_a6d69a.header_a6d69a {
+    div.card_f369db.headerRow_f369db.columnsSpan_f369db > div.mainCard_f369db.header_f369db {
         z-index: 100;
     }
 
 
     /* Friends, Nitro, Shop */
-    .peopleColumn_c2739c, .shop_e77fa3, .applicationStore_cecc86 {
+    .peopleColumn__133bf, .shop__6db1d, .applicationStore_f07d62 {
         position: relative;
         margin-left: var(--ClosedWidth); 
     } 
 
 
     /* Member List */
-    .container_cbd271 {
+    .container_c8ffbb {
         position: absolute;
         z-index: 102;
         right: -180px;
@@ -105,7 +105,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    .container_cbd271:hover {
+    .container_c8ffbb:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -113,14 +113,14 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 
 
     /* Threads Member List */
-    div.content_a7d72e > .hiddenMembers_cbd271 {
+    div.content_f75fb0 > .hiddenMembers_c8ffbb {
         position: absolute;
         right: -180px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div.content_a7d72e > .hiddenMembers_cbd271:hover {
+    div.content_f75fb0 > .hiddenMembers_c8ffbb:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
@@ -131,48 +131,48 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .upperContainer_fc4f {
         padding-right: 90px;
     }
-    .theme-dark .themed_fc4f04 {
+    .theme-dark .themed__9293f {
         position: relative;
         /* margin-left: var(--ClosedWidth); */
     }
-    .children_fc4f04 .toolbar_fc4f04 {
+    .children__9293f .toolbar__9293f {
         position: relative;
         /* margin-left: var(--ClosedWidth); */
     }
 
 
     /* Remove nicknames in titlebar */
-    .nicknames__12efb , .akaBadge__27cd4, .divider_fc4f04 {
+    .nicknames__12efb , .akaBadge__27cd4, .divider__9293f {
         display: none;
     }
 
 
     /* Compact Search Bar */
-    .searchBar_a46bef {
+    .searchBar__97492 {
         width: 80px;
     }
-    .search_ff5f90 {
+    .search__49676 {
         margin: 0px;
     }
 
 
     /* Hide unnecessary top bar icons */
-    div > div.toolbar_fc4f04 > a {               /* Help Button */
+    div > div.toolbar__9293f > a {               /* Help Button */
     display: none;
     }
-    div.toolbar_fc4f04 > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
+    div.toolbar__9293f > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
     display: none;
     }
     
 
     /* Threads "overlay" chat  (mouseover slide-in threads chat)*/
-    div > div.chatLayerWrapper_d1c246 {
+    div > div.chatLayerWrapper__01ae2 {
         right: -190px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div > div.chatLayerWrapper_d1c246:hover {
+    div > div.chatLayerWrapper__01ae2:hover {
         right: 0px;
         height: 100%;
         transition: var(--ExpandingAnim);
@@ -180,35 +180,35 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     /* Threads Overlay chat left padding */
-    div.chatLayerWrapper_d1c246 > div:nth-child(2) > div.chat_fe669e > section {
+    div.chatLayerWrapper__01ae2 > div:nth-child(2) > div.chat_ee72fa > section {
         margin-left: 2px;
     }
 
     /* Threads Overlay title padding */
-    div.chatLayerWrapper_d1c246 > div:nth-child(2) > section > div {
+    div.chatLayerWrapper__01ae2 > div:nth-child(2) > section > div {
         margin-left: -80px;
     }
 
     /* Threads right margin 2025 fix */
-    div.chatLayerWrapper_d1c246 > div:nth-child(2) > div.chat_fe669e > section {
+    div.chatLayerWrapper__01ae2 > div:nth-child(2) > div.chat_ee72fa > section {
         margin-right: 0px;
     }
 
     /* Channel Browser padding */
-    .pageBody_c2efea {
+    .pageBody__41ed7 {
     padding-left: var(--ClosedWidth);
     }
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    div.buttons_bdf0de > button > div,                            /* Nitro Icon*/
-    div.buttons_bdf0de > div:nth-child(2) > button > div,         /* GIF Icon */
-    div.buttons_bdf0de > div:nth-child(3) > button > div {        /* Stickers Icon */  
+    div.buttons__74017 > button > div,                            /* Nitro Icon*/
+    div.buttons__74017 > div:nth-child(2) > button > div,         /* GIF Icon */
+    div.buttons__74017 > div:nth-child(3) > button > div {        /* Stickers Icon */  
     display: none;
     }
 
 
     /* Search sidebar panel thingy slideout + resize */
-    div.chat_a7d72e > div.content_a7d72e > section {
+    div.chat_f75fb0 > div.content_f75fb0 > section {
         width: 70%;
         position: absolute;
         z-index: 102;
@@ -217,57 +217,57 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
     }
-    div.chat_a7d72e > div.content_a7d72e > section:hover {
+    div.chat_f75fb0 > div.content_f75fb0 > section:hover {
         right: 0;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
     }
 
     /* Message request page padding */
-    .list_f3abf4 {
+    .list_f391e3 {
     margin-left: var(--ClosedWidth);
     }
     
     /* Change top bar button min width */
-    .tabBar_c2739c .item_c2739c {
+    .tabBar__133bf .item__133bf {
         min-width: 36px;
     }
 
     
     /* Add offset to top bar in Friends page etc */
-    .children_fc4f04 {
+    .children__9293f {
         margin-left: var(--ClosedWidth);
     }
     
     
     /* Adjust margins on top bar in friends page etc */
-    .topPill_a0 .item_a0{
+    .topPill_b3f026 .item_b3f026{
         margin: 0 1px;
     }
 
     /* Discover Page content fix */
-    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > section {
+    div.layers__960e4.layers__160d8 > div > div > div > div > section {
     margin-left: var(--ClosedWidth)!important;
     }
 
     /* Fullsize Threads Chat 2025 fix */
-    .content_a7d72e:has(.hiddenMembers_cbd271)  {
+    .content_f75fb0:has(.hiddenMembers_c8ffbb)  {
         padding-right: 58px;
     }
 
     /* Onboarding or whatever welcome screen fix 2025 */
-    div.chat_a7d72e.background_e85cee > section > div > div.children_fc4f04.headerBarInner_e85cee {
+    div.chat_f75fb0.background__7449f > section > div > div.children__9293f.headerBarInner__7449f {
     margin-left: 0px;
     }
     
-    div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e.background_e85cee {
+    div.layers__960e4.layers__160d8 > div > div > div > div > div.chat_f75fb0.background__7449f {
     margin-left: var(--ClosedWidth)!important;
     }
 
 }
 
 /* DMs list top icons spacing (Friends/Nitro/Shop) */
-.avatarWithText_c91bad {
+.avatarWithText__972a0 {
     max-height: 26px;
 }
 
