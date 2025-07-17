@@ -9,8 +9,8 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 :root {
     --ClosingAnim: 300ms; /* animation duration when cursor leaves sidebar */
     --ExpandingAnim: 300ms; /* animation duration when cursor enters sidebar */
-    --ClosedWidth: 90px; /* sidebar width minimized */
-    --ExpandedWidth: 240px; /* sidebar width expanded */
+    --ClosedWidth: 120px; /* sidebar width minimized */
+    --ExpandedWidth: 262px; /* sidebar width expanded */
     --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
     --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
@@ -19,11 +19,13 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     /* Channel Sidebar */
     .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade {
         position: absolute;
-        height: 100%;
+        height: 94vh;
+        margin-top: 1px;
         width: var(--ClosedWidth)!important;
         z-index: 101;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
+        border-right: 1px solid var(--border-subtle);
     }
     .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade:hover {
         width: var(--ExpandedWidth)!important;
@@ -35,6 +37,11 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     width: 240px!important;
     }
 
+    .sidebarList_c48ade {
+        height: 94vh;
+        position: relative;
+        margin-left: 62px;
+    }
 
 
     /* Chat */
@@ -42,22 +49,14 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         position: relative;
         margin-left: var(--ClosedWidth);
     }
-    .chatContent_f75fb0:not(:only-child) {
-        margin-right: 60px;
-    }
 
-    /* Chat width 2025 fix */
-    .content_f75fb0:has(.container_c8ffbb) {
-        padding-right: 58px;
-    }
-    
     div.chat_f75fb0 > div.content_f75fb0 > main {
         margin-right: 0px;
     }
     
-    /* Fullsize Threads Chat 2025 fix */
+    /* Chat width + Fullsize Threads Chat 2025 fix (2nd fix) */
     .content_f75fb0:has(.hiddenMembers_c8ffbb)  {
-        padding-right: 58px;
+        padding-right: 67px !important;
     }
     
     
@@ -100,7 +99,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .container_c8ffbb {
         position: absolute;
         z-index: 102;
-        right: -180px;
+        right: -190px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
@@ -155,15 +154,13 @@ Most of the credit goes to them as they helped and heavily contributed to this v
         margin: 0px;
     }
 
-
     /* Hide unnecessary top bar icons */
-    div > div.toolbar__9293f > a {               /* Help Button */
+    div.trailing_c38106 > a {                                       /* Help Button */
     display: none;
     }
-    div.toolbar__9293f > div:nth-child(2) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
+    div.toolbar__9293f.showToolbar__9293f > div:nth-child(3) {      /* Notification settings (in reality just removes 2nd button, no matter what button that is, idk a better method to hide this :( )*/
     display: none;
     }
-    
 
     /* Threads "overlay" chat  (mouseover slide-in threads chat)*/
     div > div.chatLayerWrapper__01ae2 {
@@ -200,9 +197,9 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     /* Remove Nitro gift & Sticker buttons from chat input area */
-    div.buttons__74017 > button > div,                            /* Nitro Icon*/
-    div.buttons__74017 > div:nth-child(2) > button > div,         /* GIF Icon */
-    div.buttons__74017 > div:nth-child(3) > button > div {        /* Stickers Icon */  
+    div.buttons__74017 > button > div,                                /* Nitro Icon*/
+    div.buttons__74017 > div:nth-child(2) > button > div,             /* GIF Icon */
+    div.buttons__74017 > div:nth-child(3) > button > div {            /* Stickers Icon */  
     display: none;
     }
 
@@ -270,4 +267,3 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 .avatarWithText__972a0 {
     max-height: 26px;
 }
-
