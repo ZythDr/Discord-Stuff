@@ -9,13 +9,13 @@ Most of the credit goes to them as they helped and heavily contributed to this v
 :root {
     --ClosingAnim: 300ms; /* animation duration when cursor leaves sidebar */
     --ExpandingAnim: 300ms; /* animation duration when cursor enters sidebar */
-    --ClosedWidth: 120px; /* sidebar width minimized */
+    --ClosedWidth: 126px; /* sidebar width minimized */
     --ExpandedWidth: 262px; /* sidebar width expanded */
     --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
     --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
 
-@media (max-width: 1130px) {
+@media (max-width: var(--ApplyWidth)) {
     /* Channel Sidebar */
     .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade {
         position: absolute;
@@ -60,7 +60,6 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
     
     
-
     /* Call Screen */
     .wrapper_cb9592 {
         margin-left: var(--ClosedWidth);
@@ -162,34 +161,6 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     display: none;
     }
 
-    /* Threads "overlay" chat  (mouseover slide-in threads chat)*/
-    div > div.chatLayerWrapper__01ae2 {
-        right: -190px;
-        height: 100%;
-        transition: var(--ClosingAnim);
-        transition-delay: var(--AnimDelay);
-    }
-    div > div.chatLayerWrapper__01ae2:hover {
-        right: 0px;
-        height: 100%;
-        transition: var(--ExpandingAnim);
-        transition-delay: var(--AnimDelay);
-    }
-
-    /* Threads Overlay chat left padding */
-    div.chatLayerWrapper__01ae2 > div:nth-child(2) > div.chat_ee72fa > section {
-        margin-left: 2px;
-    }
-
-    /* Threads Overlay title padding */
-    div.chatLayerWrapper__01ae2 > div:nth-child(2) > section > div {
-        margin-left: -80px;
-    }
-
-    /* Threads right margin 2025 fix */
-    div.chatLayerWrapper__01ae2 > div:nth-child(2) > div.chat_ee72fa > section {
-        margin-right: 0px;
-    }
 
     /* Channel Browser padding */
     .pageBody__41ed7 {
@@ -261,9 +232,49 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     margin-left: var(--ClosedWidth)!important;
     }
 
-}
 
-/* DMs list top icons spacing (Friends/Nitro/Shop) */
-.avatarWithText__972a0 {
-    max-height: 26px;
+    /* DMs list top icons spacing (Friends/Nitro/Shop) */
+    .avatarWithText__972a0 {
+        max-height: 26px;
+    }
+
+
+    /* user status (bottom left thingy) stuff */
+    .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade {
+        button.button__67645, span.button__67645 {
+        display: none;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+        }
+    }
+
+    .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade:hover {
+        button.button__67645, span.button__67645 {
+        display: flex;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+        }
+    }
+    .actionButtons_e131a9 {
+        display: none;
+    }
+    .actionButtons_e131a9:hover {
+        display: grid;
+    }
+
+
+    /* Forums width stuff */
+    div.content_c48ade > div.page_c48ade > div > div:nth-child(2) {
+        min-width: 0px!important;
+    }
+
+    /* Threads overlay stuff */
+    .chat_f02135 {
+        width: 573px;
+        margin-left: -125px;
+        border-left: ;
+    }
+    .resizeHandle__01ae2 {
+        display: none;
+    }
 }
