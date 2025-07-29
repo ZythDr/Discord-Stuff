@@ -12,7 +12,6 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     --ClosedWidth: 126px; /* sidebar width minimized */
     --ExpandedWidth: 262px; /* sidebar width expanded */
     --AnimDelay: 100ms; /* delay before the expand/collapse animation begins */
-    --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
 
 @media (max-width: 1130px) {
