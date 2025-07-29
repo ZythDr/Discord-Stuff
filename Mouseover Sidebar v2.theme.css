@@ -15,12 +15,12 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     --ApplyWidth: 1130px; /* maximum width of Discord window until this theme disables itself */
 }
 
-@media (max-width: var(--ApplyWidth)) {
+@media (max-width: 1130px) {
     /* Channel Sidebar */
     .layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade {
         position: absolute;
         height: 94vh;
-        margin-top: 1px;
+        margin-top: -1px;
         width: var(--ClosedWidth)!important;
         z-index: 101;
         transition: var(--ClosingAnim);
@@ -272,9 +272,58 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     .chat_f02135 {
         width: 573px;
         margin-left: -125px;
-        border-left: ;
     }
     .resizeHandle__01ae2 {
         display: none;
     }
+
+    .container_f369db:not(:last-child) {
+        margin-right: 0px;
+    }
+
+    .chatContent_f75fb0 {
+
+    }
+
+    div.chatLayerWrapper__01ae2 > div:nth-child(3) > div.chat_f02135 > section {
+    margin-left: 125px;
+    }
+
+    div.content_c48ade > div.page_c48ade > div > div.chatLayerWrapper__01ae2 > div:nth-child(3) {
+        position: absolute;
+        z-index: 102;
+        right: -350px;
+        height: 100%;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+    div.content_c48ade > div.page_c48ade > div > div.chatLayerWrapper__01ae2 > div:nth-child(3):hover {
+        right: 0;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+
+    /* server boost page stuff */
+    div.page_c48ade > div > div > div.powerupsContainer__89463.thin_d125d2.scrollerBase_d125d2 {
+        margin-left: var(--ClosedWidth);
+    }
+
+    div.content_c48ade > div.page_c48ade > div > div > div.sidebarContainer__89463 {
+        margin-right: -200px;
+        transition: var(--ClosingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+    div.content_c48ade > div.page_c48ade > div > div > div.sidebarContainer__89463:hover {
+        margin-right: -00px;
+        transition: var(--ExpandingAnim);
+        transition-delay: var(--AnimDelay);
+    }
+
+    .notice__6e2b9 {
+        margin-left: var(--ClosedWidth);
+    }
+
 }
+
