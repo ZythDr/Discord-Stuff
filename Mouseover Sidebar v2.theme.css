@@ -268,6 +268,11 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     /* Threads overlay stuff */
+
+    div.chatLayerWrapper__01ae2 > div:nth-child(3) > div.chat_ee72fa {
+        width: 603px;
+        margin-left: -126px;
+    }
     .chat_f02135 {
         width: 573px;
         margin-left: -125px;
@@ -291,7 +296,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     div.content_c48ade > div.page_c48ade > div > div.chatLayerWrapper__01ae2 > div:nth-child(3) {
         position: absolute;
         z-index: 102;
-        right: -350px;
+        right: -300px;
         height: 100%;
         transition: var(--ClosingAnim);
         transition-delay: var(--AnimDelay);
@@ -315,7 +320,7 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
     div.content_c48ade > div.page_c48ade > div > div > div.sidebarContainer__89463:hover {
-        margin-right: -00px;
+        margin-right: -0px;
         transition: var(--ExpandingAnim);
         transition-delay: var(--AnimDelay);
     }
@@ -325,4 +330,3 @@ Most of the credit goes to them as they helped and heavily contributed to this v
     }
 
 }
-
